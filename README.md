@@ -1,5 +1,5 @@
-# Chat-Application
-Mini Chat System A simple web-based chat system built using Node.js, Express, and MongoDB. Users can create, view, edit, and delete chat messages, simulating a basic chat app. The project demonstrates key CRUD functionality, dynamic EJS rendering, and server-side routing.
+# Chatting-Application
+Chatting-Application System is a simple web-based chat system built using Node.js, Express, and MongoDB. Users can create, view, edit, and delete chat messages, simulating a basic chat app. The project demonstrates key CRUD functionality, dynamic EJS rendering, and server-side routing.
 
 ## Features
 - **Create**: Send new messages between users.
@@ -17,8 +17,8 @@ Mini Chat System A simple web-based chat system built using Node.js, Express, an
 ## Setup and Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/DivyShikha/Chat-Application.git
-    cd Chat-Application
+    git clone https://github.com/Aman-Kumar1018/Chatting-Application.git
+    cd Chatting-Application
     ```
 
 2. Install dependencies:
@@ -56,5 +56,5 @@ coverage
 This project is licensed under the MIT License.
 
 ## Author
-**DivyShikha**  
-[GitHub Profile](https://github.com/DivyShikha)
+**AmanKumar**  
+[GitHub Profile](https://github.com/Aman-Kumar1018)
