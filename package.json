@@ -1,9 +1,27 @@
 {
+<<<<<<< HEAD
   "dependencies": {
     "ejs": "^3.1.10",
     "express": "^4.19.2",
     "init": "^0.1.2",
     "method-override": "^3.0.0",
     "mongoose": "^8.5.2"
+=======
+  "name": "mongo3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Divy Shikha",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.9.6"
+>>>>>>> 4d63d5551a940e85243a7766861982e66c5178bb
   }
 }

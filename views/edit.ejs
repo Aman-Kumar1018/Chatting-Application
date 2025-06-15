@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Edit your chat</title>
 </head>
 <body>
@@ -13,6 +14,15 @@
 
     <form method="POST" action="/chats/<%= chat._id %>?_method=PUT">
         <textarea name="msg" cols="50" rows="6" ><%= chat.msg %></textarea>
+=======
+    <title>Edit Chat</title>
+</head>
+<body>
+    <h3>Edit the chat with id: <%= chat._id %></h3>
+    <p>This chat is from <b><%= chat.from %></b> to <b><%= chat.to %></b>. </p>
+    <form method = "POST" action = "/chats/<%=chat._id%>?_method=PUT">
+        <textarea name = "msg" rows = "6" cols = "50"><%=chat.msg%></textarea>
+>>>>>>> 4d63d5551a940e85243a7766861982e66c5178bb
         <br>
         <button>Edit</button>
     </form>
